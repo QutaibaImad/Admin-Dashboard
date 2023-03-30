@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Q.Admin-Dashboard</title>
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="sidebar" id="sidebar">
+      <div class="logo">
+         <h2>
+            <i class="uil uil--alt"></i>
+
+         </h2>
+      </div>
+
+      <div class="sidebar-menu">
+         <ul>
+            <li>
+               <i class="uil uil-dashboard"></i>
+               <span>Dashboard</span>
+            </li>
+            <li>
+               <i class="uil uil-clipboard-notes"></i>
+               <span>Projects</span>
+            </li>
+            <li>
+               <i class="uil uil-chart-bar"></i>
+               <span>Charts</span>
+            </li>
+            <li>
+               <i class="uil uil-calendar-alt"></i>
+               <span>Calendar</span>
+            </li>
+            <li>
+               <i class="uil uil-shopping-bag"></i>
+               <span>Orders</span>
+            </li>
+            <li>
+               <i class="uil uil-clipboard-notes"></i>
+               <span>Tasks</span>
+            </li>
+            <li>
+               <i class="uil uil-user-circle"></i>
+               <span>Account</span>
+            </li>
+            <li>
+               <i class="uil uil-signin"></i>
+               <span>Logout</span>
+            </li>
+         </ul>
+      </div>
+   </div>
+
+   <div class="main-content" id="main-content">
+      <header class="flex">
+         <h2>
+            <i class="uil uil-bars" id="menu-icon"></i>
+            Dashboard
+         </h2>
+
+         <div class="search-box">
+            <i class="uil uil-search"></i>
+            <input type="text" placeholder="Search">
+         </div>
+
+         <div class="admin-box flex">
+            <img src="images/user.png" width="30px" height="30px">
+            <div>
+               <h4>Qutaiba Imad</h4>
+               <small>Admin</small>
+            </div>
+         </div>
+      </header>
+
+      <main>
+         <div class="cards">
+            <div class="single-card">
+               <div>
+                  <span>EARNINGS (MONTHLY)</span>
+                  <h2>$40,000</h2>
+               </div>
+               <i class="uil uil-calender"></i>
+            </div>
+            <div class="single-card">
+               <div>
+                  <span>EARNINGS (ANNUAL)</span>
+                  <h2>$215,000</h2>
+               </div>
+               <i class="uil uil-dollar-sign-alt"></i>
+            </div>
+            <div class="single-card">
+               <div>
+                  <span>Weekly Sales</span>
+                  <h2>$47k</h2>
+               </div>
+               <i class="uil uil-chart-bar"></i>
+            </div>
+            <div class="single-card">
+               <div>
+                  <span>PENDING REQUESTS</span>
+                  <h2>18</h2>
+               </div>
+               <i class="uil uil-comments"></i>
+            </div>
+         </div>
+
+
+         <div class="wrapper flex">
+            <div class="projects">
+               <div class="card-header flex">
+                  <h3>Recents Projects</h3>
+                  <button>See all <i class="uil uil-angle-right"></i></button>
+               </div>
+
+               <table>
+                  <thead>
+                     <th>
+                        <tr>
+                           <td>Project Title</td>
+                           <td>Department</td>
+                           <td>Status</td>
+                        </tr>
+                     </th>
+                  </thead>
+
+                  <tbody>
+                     <tr>
+                        <td>Frontend Developer</td>
+                        <td>Developers Team</td>
+                        <td class="status-box">
+                           <span class="status review"></span>review
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Frontend Developer</td>
+                        <td>Developers Team</td>
+                        <td class="status-box">
+                           <span class="status progress"></span>progress
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Frontend Developer</td>
+                        <td>Developers Team</td>
+                        <td class="status-box">
+                           <span class="status pending"></span>pending
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Frontend Developer</td>
+                        <td>Developers Team</td>
+                        <td class="status-box">
+                           <span class="status review"></span>review
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Frontend Developer</td>
+                        <td>Developers Team</td>
+                        <td class="status-box">
+                           <span class="status progress"></span>progress
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Frontend Developer</td>
+                        <td>Developers Team</td>
+                        <td class="status-box">
+                           <span class="status pending"></span>pending
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Frontend Developer</td>
+                        <td>Developers Team</td>
+                        <td class="status-box">
+                           <span class="status review"></span>review
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Frontend Developer</td>
+                        <td>Developers Team</td>
+                        <td class="status-box">
+                           <span class="status progress"></span>progress
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Frontend Developer</td>
+                        <td>Developers Team</td>
+                        <td class="status-box">
+                           <span class="status pending"></span>pending
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+
+            <div class="customers">
+               <div class="card-header flex">
+                  <h3>New Customers</h3>
+                  <button>See all <i class="uil uil-angle-right"></i></button>
+               </div>
+
+               <table>
+
+                  <tr class="flex">
+                     <td class="flex">
+                        <img src="images/user.png" width="30px" height="30px" alt="">
+                        <div>
+                           <h5>Qutaiba Imad</h5>
+                           <small>CEO Expert</small>
+                        </div>
+                     </td>
+
+                     <td>
+                        <i class="uil uil-user-circle"></i>
+                        <i class="uil uil-calender"></i>
+                        <i class="uil uil-phone-alt"></i>
+                     </td>
+                  </tr>
+                  <tr class="flex">
+                     <td class="flex">
+                        <img src="images/user.png" width="30px" height="30px" alt="">
+                        <div>
+                           <h5>Qutaiba Imad</h5>
+                           <small>CEO Expert</small>
+                        </div>
+                     </td>
+
+                     <td>
+                        <i class="uil uil-user-circle"></i>
+                        <i class="uil uil-calender"></i>
+                        <i class="uil uil-phone-alt"></i>
+                     </td>
+                  </tr>
+                  <tr class="flex">
+                     <td class="flex">
+                        <img src="images/user.png" width="30px" height="30px" alt="">
+                        <div>
+                           <h5>Qutaiba Imad</h5>
+                           <small>CEO Expert</small>
+                        </div>
+                     </td>
+
+                     <td>
+                        <i class="uil uil-user-circle"></i>
+                        <i class="uil uil-calender"></i>
+                        <i class="uil uil-phone-alt"></i>
+                     </td>
+                  </tr>
+                  <tr class="flex">
+                     <td class="flex">
+                        <img src="images/user.png" width="30px" height="30px" alt="">
+                        <div>
+                           <h5>Qutaiba Imad</h5>
+                           <small>CEO Expert</small>
+                        </div>
+                     </td>
+
+                     <td>
+                        <i class="uil uil-user-circle"></i>
+                        <i class="uil uil-calender"></i>
+                        <i class="uil uil-phone-alt"></i>
+                     </td>
+                  </tr>
+                  <tr class="flex">
+                     <td class="flex">
+                        <img src="images/user.png" width="30px" height="30px" alt="">
+                        <div>
+                           <h5>Qutaiba Imad</h5>
+                           <small>CEO Expert</small>
+                        </div>
+                     </td>
+
+                     <td>
+                        <i class="uil uil-user-circle"></i>
+                        <i class="uil uil-calender"></i>
+                        <i class="uil uil-phone-alt"></i>
+                     </td>
+                  </tr>
+                  <tr class="flex">
+                     <td class="flex">
+                        <img src="images/user.png" width="30px" height="30px" alt="">
+                        <div>
+                           <h5>Qutaiba Imad</h5>
+                           <small>CEO Expert</small>
+                        </div>
+                     </td>
+
+                     <td>
+                        <i class="uil uil-user-circle"></i>
+                        <i class="uil uil-calender"></i>
+                        <i class="uil uil-phone-alt"></i>
+                     </td>
+                  </tr>
+                  <tr class="flex">
+                     <td class="flex">
+                        <img src="images/user.png" width="30px" height="30px" alt="">
+                        <div>
+                           <h5>Qutaiba Imad</h5>
+                           <small>CEO Expert</small>
+                        </div>
+                     </td>
+
+                     <td>
+                        <i class="uil uil-user-circle"></i>
+                        <i class="uil uil-calender"></i>
+                        <i class="uil uil-phone-alt"></i>
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </main>
+   </div>
+
+   <script>
+      let sideBar = document.getElementById('sidebar');
+      let menuIcon = document.getElementById('menu-icon');
+      let mainContent = document.getElementById('main-content');
+
+      menuIcon.onclick = () => {
+         sideBar.classList.toggle('toggleMenu');
+         mainContent.classList.toggle('toggleContent');
+      }
+   </script>
+</body>
+
+</html>
